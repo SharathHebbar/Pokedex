@@ -1,0 +1,246 @@
+Bulbasaur = {
+    "id" : "#001",
+    "name" : "Bulbasaur",
+    "type1" : "Grass",
+    "type2" : "Poison",
+    "ability1" : "Overgrow",
+    "ability2" : "Overgrow",
+    "Hiddenability" : "Chlorophyll",
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "SpecialAttack" : 65,
+    "SpecialDefense" : 65,
+    "Speed" : 45,
+    "TotalStats" : 318,
+    "EvolutionMethod" : "Level up till 16",
+    "EvolutionName" : "Ivysaur"
+}
+
+Ivysaur = {
+    "id" : "#002",
+    "name" : "Ivysaur",
+    "type1" : "Grass",
+    "type2" : "Poison",
+    "ability1" : "Overgrow",
+    "ability2" : "Overgrow",
+    "Hiddenability" : "Chlorophyll",
+    "HP" : 60,
+    "Attack" : 62,
+    "Defense" : 63,
+    "SpecialAttack" : 80,
+    "SpecialDefense" : 80,
+    "Speed" : 60,
+    "TotalStats" : 405,
+    "EvolutionMethod" : "Level up till 32",
+    "EvolutionName" : "Venusaur"
+}
+
+Venusaur = {
+    "id" : "#003",
+    "name" : "Venusaur",
+    "type1" : "Grass",
+    "type2" : "Poison",
+    "ability1" : "Overgrow",
+    "ability2" : "Overgrow",
+    "Hiddenability" : "Chlorophyll",
+    "HP" : 80,
+    "Attack" : 82,
+    "Defense" : 83,
+    "SpecialAttack" : 100,
+    "SpecialDefense" : 100,
+    "Speed" : 80,
+    "TotalStats" : 525,
+    "EvolutionMethod" : "Venusaurite",
+    "EvolutionName" : "Mega-Venusaur"
+}
+
+MegaVenusaur = {
+    "id" : "#003",
+    "name" : "Mega-Venusaur",
+    "type1" : "Grass",
+    "type2" : "Poison",
+    "ability1" : "ThickFat",
+    "ability2" : "ThickFat",
+    "Hiddenability" : "ThickFat",
+    "HP" : 80,
+    "Attack" : 100,
+    "Defense" : 123,
+    "SpecialAttack" : 122,
+    "SpecialDefense" : 120,
+    "Speed" : 80,
+    "TotalStats" : 625,
+    "EvolutionMethod" : "None",
+    "EvolutionName" : "None"
+}
+
+Charmander = {
+    "id" : "#004",
+    "name" : "Charmander",
+    "type1" : "Fire",
+    "type2" : "Fire",
+    "ability1" : "Blaze",
+    "ability2" : "Blaze",
+    "Hiddenability" : "SolarPower",
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "SpecialAttack" : 60,
+    "SpecialDefense" : 50,
+    "Speed" : 65,
+    "TotalStats" : 309,
+    "EvolutionMethod" : "Level up till 16",
+    "EvolutionName" : "Charmeleon"
+}
+
+Charmeleon = {
+    "id" : "#005",
+    "name" : "Charmeleon",
+    "type1" : "Fire",
+    "type2" : "Fire",
+    "ability1" : "Blaze",
+    "ability2" : "Blaze",
+    "Hiddenability" : "SolarPower",
+    "HP" : 58,
+    "Attack" : 64,
+    "Defense" : 58,
+    "SpecialAttack" : 80,
+    "SpecialDefense" : 65,
+    "Speed" : 80,
+    "TotalStats" : 405,
+    "EvolutionMethod" : "Level up till 36",
+    "EvolutionName" : "Charizard"
+}
+
+Charizard = {
+    "id" : "#006",
+    "name" : "Charizard",
+    "type1" : "Fire",
+    "type2" : "Flying",
+    "ability1" : "Blaze",
+    "ability2" : "Blaze",
+    "Hiddenability" : "SolarPower",
+    "HP" : 78,
+    "Attack" : 84,
+    "Defense" : 78,
+    "SpecialAttack" : 109,
+    "SpecialDefense" : 85,
+    "Speed" : 100,
+    "TotalStats" : 534,
+    "EvolutionMethod" : "Charizarditex or Charizarditey",
+    "EvolutionName" : "Mega-CharizardX or Mega-CharizardY"
+}
+
+MegacharizardY = {
+    "id" : "#006",
+    "name" : "Mega-CharizardY",
+    "type1" : "Fire",
+    "type2" : "Flying",
+    "ability1" : "Drought",
+    "ability2" : "Drought",
+    "Hiddenability" : "Drought",
+    "HP" : 78,
+    "Attack" : 104,
+    "Defense" : 78,
+    "SpecialAttack" : 159,
+    "SpecialDefense" : 115,
+    "Speed" : 100,
+    "TotalStats" : 634,
+    "EvolutionMethod" : "None",
+    "EvolutionName" : "None"
+}
+
+MegacharizardX = {
+    "id" : "#006",
+    "name" : "Mega-CharizardX",
+    "type1" : "Fire",
+    "type2" : "Dragon",
+    "ability1" : "ToughClaws",
+    "ability2" : "ToughClaws",
+    "Hiddenability" : "ToughClaws",
+    "HP" : 78,
+    "Attack" : 130,
+    "Defense" : 111,
+    "SpecialAttack" : 130,
+    "SpecialDefense" : 85,
+    "Speed" : 100,
+    "TotalStats" : 634,
+    "EvolutionMethod" : "None",
+    "EvolutionName" : "None"
+}
+
+Squirtle = {
+    "id" : "#007",
+    "name" : "Squirtle",
+    "type1" : "Water",
+    "type2" : "Water",
+    "ability1" : "Torrent",
+    "ability2" : "Torrent",
+    "Hiddenability" : "RainDish",
+    "HP" : 44,
+    "Attack" : 48,
+    "Defense" : 65,
+    "SpecialAttack" : 50,
+    "SpecialDefense" : 64,
+    "Speed" : 43,
+    "TotalStats" : 314,
+    "EvolutionMethod" : "Level up till 16",
+    "EvolutionName" : "Wartotle"
+}
+
+Wartotle = {
+    "id" : "#008",
+    "name" : "Wartotle",
+    "type1" : "Water",
+    "type2" : "Water",
+    "ability1" : "Torrent",
+    "ability2" : "Torrent",
+    "Hiddenability" : "RainDish",
+    "HP" : 59,
+    "Attack" : 63,
+    "Defense" : 80,
+    "SpecialAttack" : 65,
+    "SpecialDefense" : 80,
+    "Speed" : 58,
+    "TotalStats" : 405,
+    "EvolutionMethod" : "Level up till 36",
+    "EvolutionName" : "Blastoise"
+}
+
+Blastoise = {
+    "id" : "#009",
+    "name" : "Blastoise",
+    "type1" : "Water",
+    "type2" : "Water",
+    "ability1" : "Torrent",
+    "ability2" : "Torrent",
+    "Hiddenability" : "RainDish",
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "SpecialAttack" : 85,
+    "SpecialDefense" : 105,
+    "Speed" : 78,
+    "TotalStats" : 530,
+    "EvolutionMethod" : "Blastoisinite",
+    "EvolutionName" : "Mega-Blastoise"
+}
+
+Megablastoise = {
+    "id" : "#009",
+    "name" : "Mega-Blastoise",
+    "type1" : "Water",
+    "type2" : "Water",
+    "ability1" : "MegaLauncher",
+    "ability2" : "MegaLauncher",
+    "Hiddenability" : "MegaLauncher",
+    "HP" : 79,
+    "Attack" : 103,
+    "Defense" : 120,
+    "SpecialAttack" : 135,
+    "SpecialDefense" : 115,
+    "Speed" : 78,
+    "TotalStats" : 630,
+    "EvolutionMethod" : "None",
+    "EvolutionName" : "None"
+}

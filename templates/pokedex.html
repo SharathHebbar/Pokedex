@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Pokedex</title>
+    </head>
+    <body>
+        <form method="POST">
+            <div class="input">
+            <input type="text" placeholder="Type the serial number" name="sno">
+            <button type="submit" name="Find">Find</button>
+        </div>
+    </form>
+            <div class = "datas">
+                {% if data.id and data.name and data.type1 and data.type2 and data.ability1 and data.ability2 and data.Hiddenability and data.HP and data.Attack and data.Defense and data.SpecialAttack and data.SpecialDefense and data.Speed and data.TotalStats and data.EvolutionMethod and data.EvolutionName %}
+            <h3>id : {{data.id}} </h3>
+            <h3>name : {{data.name}}</h3>
+            <h3>type1 : {{data.type1}}</h3>
+            <h3>type2 : {{data.type2}}</h3>
+            <h3>ability1 : {{data.ability1}}</h3>
+            <h3>ability2 : {{data.ability2}}</h3>
+            <h3>Hiddenability : {{data.Hiddenability}}</h3>
+            <h3>HP : {{data.HP}}</h3>
+            <h3>Attack : {{data.Attack}}</h3>
+            <h3>Defense : {{data.Defense}}</h3>
+            <h3>SpecialAttack : {{data.SpecialAttack}}</h3>
+            <h3>SpecialDefense : {{data.SpecialDefense}}</h3>
+            <h3>Speed : {{data.Speed}}</h3>
+            <h3>TotalStats : {{data.TotalStats}}</h3>
+            <h3>EvolutionMethod : {{data.EvolutionMethod}}</h3>
+            <h3>EvolutionName : {{data.EvolutionName}}</h3>
+            {% endif %}
+            </div>
+        
+    </body>
+</html>
