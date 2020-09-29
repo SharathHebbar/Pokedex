@@ -10,23 +10,29 @@
         </div>
     </form>
             <div class = "datas">
-                {% if data.id and data.name and data.type1 and data.type2 and data.ability1 and data.ability2 and data.Hiddenability and data.HP and data.Attack and data.Defense and data.SpecialAttack and data.SpecialDefense and data.Speed and data.TotalStats and data.EvolutionMethod and data.EvolutionName %}
-            <h3>id : {{data.id}} </h3>
-            <h3>name : {{data.name}}</h3>
-            <h3>type1 : {{data.type1}}</h3>
-            <h3>type2 : {{data.type2}}</h3>
-            <h3>ability1 : {{data.ability1}}</h3>
-            <h3>ability2 : {{data.ability2}}</h3>
-            <h3>Hiddenability : {{data.Hiddenability}}</h3>
-            <h3>HP : {{data.HP}}</h3>
-            <h3>Attack : {{data.Attack}}</h3>
-            <h3>Defense : {{data.Defense}}</h3>
-            <h3>SpecialAttack : {{data.SpecialAttack}}</h3>
-            <h3>SpecialDefense : {{data.SpecialDefense}}</h3>
-            <h3>Speed : {{data.Speed}}</h3>
-            <h3>TotalStats : {{data.TotalStats}}</h3>
-            <h3>EvolutionMethod : {{data.EvolutionMethod}}</h3>
-            <h3>EvolutionName : {{data.EvolutionName}}</h3>
+            {% if data.id and data.name and data.type1 and data.type2 and data.ability1 and data.ability2 and data.Hiddenability and data.HP and data.Attack and data.Defense and data.SpecialAttack and data.SpecialDefense and data.Speed and data.TotalStats and data.EvolutionMethod and data.EvolutionName %}
+        <h4>Id : {{data.id}} 
+        Name : {{data.name}}</h4>
+        <br/>
+        <h3>Types</h3>
+        <table border="1px">
+        <tr><th>Type1</th><th>Type2</th></tr>
+        <tr><td>{{data.type1}}</td><td>{{data.type2}}</td></tr>
+        </table>
+        <br/>  
+        <h3>Abilities</h3>
+        <table border="1px">
+        <tr><th>Ability1</th><th>Ability2</th><th>Hiddenability</th></tr>
+        <tr><td>{{data.ability1}}</td><td>{{data.ability2}}</td><td>{{data.Hiddenability}}</td></tr>
+        </table> 
+        <br/>
+        <table border="1px">
+        <tr><th>HP</th><th>ATK</th><th>DEF</th><th>SPATK</th><th>SPDEF</th><th>SPD </th><th>TOTAL</th></tr>
+        <tr><td>{{data.HP}}</td><td>{{data.Attack}}</td><td>{{data.Defense}}</td><td>{{data.SpecialAttack}}</td><td>{{data.SpecialDefense}}</td><td>{{data.Speed}}</td><td>{{data.TotalStats}}</td></tr>    
+        </table>
+        <br/>
+           <h4> EvolutionMethod : {{data.EvolutionMethod}}</h4> 
+            <h4> EvolutionName : {{data.EvolutionName}}</h4>
             {% endif %}
             </div>
         
