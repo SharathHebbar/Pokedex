@@ -1,6 +1,6 @@
 # Pokedex
  Pokedex
-website : http://iblogsdelta.pythonanywhere.com/
+[Pokedex]: http://iblogsdelta.pythonanywhere.com/
 
 This is a demo version of a pokedex containing below pokemons
 
